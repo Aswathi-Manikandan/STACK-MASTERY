@@ -1,12 +1,12 @@
-// Implement Stack using a JavaScript array
+// Implement Stack using a JavaScript array 
+
+// ===> in this  i have implemented stack using an array not used constructor . 
 
 let stack = []
 
 function push(value) {
     stack.push(value)
 }
-
-
 
 function pop() {
     if (empty()) {
